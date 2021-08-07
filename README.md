@@ -7,11 +7,12 @@ current time(24h format).
 
 It is a simple Python-based program which uses "https://api.sunrise-sunset.org/json" api to fetch the results.
 
-========IN ORDER TO GET 24HR AND MORE SCIENTIFIC FORMAT FOR SUNRISE AND SUNSET, DO CHANGE THE CODE AS FOLLOWING:========
+===IN ORDER TO GET 24HR AND MORE SCIENTIFIC FORMAT FOR SUNRISE AND SUNSET, DO CHANGE THE CODE AS FOLLOWING:===
 
 1. Change FORMATTED to 0.
 
 2. And change this: 
+
                   sunrise = data["results"]["sunrise"].split("T")[1].split(":")[0]
                   sunset = data["results"]["sunset"].split("T")[1].split(":")[0]
 
